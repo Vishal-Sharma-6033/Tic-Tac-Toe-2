@@ -8,9 +8,12 @@
 .wrapper{
     width: 100vw;
     height: 100vh;
-    background: #44A08D;  
-    background: -webkit-linear-gradient(to right, #093637, #44A08D); 
-    background: linear-gradient(to right, #093637, #44A08D); 
+
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
     background-size: cover;
     background-position: center;
     display: grid;
@@ -72,13 +75,14 @@
     position: absolute;
     bottom:3rem;
     left:50%;
+    font-size: 15px;
     transform:translateX(-50%);
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.25);
     padding: 0.5rem 2rem;
     cursor:pointer;
-    /* display: none; */
+    display: none;
 }
 
 .btn.active{
