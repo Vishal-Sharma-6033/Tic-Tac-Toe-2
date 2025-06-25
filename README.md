@@ -52,3 +52,6 @@ GitHub Profile
 🤖 Add AI (single-player mode with difficulty levels)
 📱 Improve mobile responsiveness
 🎨 Add animations and sound effects
+
+
+⭐ If you like this project, give it a star and share it with others!
