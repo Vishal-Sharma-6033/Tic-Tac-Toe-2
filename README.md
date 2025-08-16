@@ -24,6 +24,7 @@ A simple yet engaging Tic Tac Toe game built using HTML, CSS, and JavaScript. Th
 
 ## 📸 Screenshot
 live Preview:- https://tic-tac-toe-2-chi.vercel.app
+<hr/>
 <img width="1439" alt="Tic Tac Toe" src="https://github.com/user-attachments/assets/3d27caaa-9e46-4e88-9a41-6d90ce30541b" />
 
 ---
